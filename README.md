@@ -18,6 +18,8 @@ This year, unfortunately, you won't be able to sit next to your partner and to s
 
 The task this week contains detailed instructions about what to do and when, so you can have a better idea of how this works in practice. There will be less and less scaffolding in future workshops -- it will feel more natural after you've done it a few times. During workshops, we will typically ask you to switch roles every 15 minutes or so, to make sure that both you and your partner take both roles at least once.
 
+---
+
 ## Instructions
 
 First, decide who should be the "driver" first (you will switch roles later).
@@ -54,7 +56,14 @@ The team repository you created (by accepting the assignment and creating/joinin
 
 - You will see that there is already some code in there. Let's try to run it: in Atom, select all 4 lines (with your mouse), and press Ctrl+Enter (Windows, Linux) or Cmd+Enter (MacOS) to run the code (just like in Jupyter). You should see the *output* of the code appear next to line 4.
 
-*If this doesn't work, please call a tutor.*
+***Note:*** If, when you try to run the code, you get the error "No kernel for grammar Python found", do the following:
+- on Windows, launch "Anaconda Prompt" (not Navigator!).
+- on MacOS/Linux, open a terminal.
+- Run the command `conda install ipykernel`.
+- Then, run `python3 -m ipykernel install --user`.
+- In the menu bar in Atom, click "Packages", select "Hydrogen", and click on "Update Kernels". Try to run the code again with Ctrl+Enter.
+
+*If this still doesn't work, please call a tutor.*
 
 #### Driver & navigator:
 
