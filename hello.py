@@ -1,3 +1,4 @@
 name = 'Josephine'
 age = 36
-birthday = '9 October'
+
+print(f'Hi, my name is {name}, and I am {age} years old.')
