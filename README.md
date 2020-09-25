@@ -56,12 +56,7 @@ The team repository you created (by accepting the assignment and creating/joinin
 
 - You will see that there is already some code in there. Let's try to run it: in Atom, select all 4 lines (with your mouse), and press Ctrl+Enter (Windows, Linux) or Cmd+Enter (MacOS) to run the code (just like in Jupyter). You should see the *output* of the code appear next to line 4.
 
-***Note:*** If, when you try to run the code, you get the error "No kernel for grammar Python found", do the following:
-- on Windows, launch "Anaconda Prompt" (not Navigator!).
-- on MacOS/Linux, open a terminal.
-- Run the command `conda install ipykernel`.
-- Then, run `python3 -m ipykernel install --user`.
-- In the menu bar in Atom, click "Packages", select "Hydrogen", and click on "Update Kernels". Try to run the code again with Ctrl+Enter.
+***Note:*** If, when you try to run the code, you get the error "No kernel for grammar Python found", **please follow the guide in "Common issues with setting up" on Learn**
 
 *If this still doesn't work, please call a tutor.*
 
